@@ -14,8 +14,7 @@ double y2 = GetCoordinate("y");
 double z2 = GetCoordinate("z");
 
 double distance = CalculateDistance(x1, y1, z1, x2, y2, z2);
-Console.WriteLine($"Расстояние между точками A и B: {distance:F2}");
-
+Console.WriteLine($"Расстояние между точками A и B: {distance}");
 
 static double GetCoordinate(string coordinateName)
 {
